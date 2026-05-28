@@ -1,0 +1,30 @@
+h3{
+    margin-left: 50px;
+}
+
+.nav{
+    background-color: darkblue;
+    width: 25vw;
+    height: 100vh;
+
+    position: fixed;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    margin: 1.5px;
+
+    color: white;
+}
+
+.nav-links{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 100px;
+}
+
+.nav a{
+    display: block;
+}
